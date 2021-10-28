@@ -1,0 +1,29 @@
+[user]
+	name = vanishingsoulzd
+	email = 605289128@qq.com
+[alias]
+	st = status
+	bh = "branch --sort=-committerdate"
+	swh = switch
+	ckt = checkout
+	log = "log --oneline "
+	lg = log --oneline
+	lgg = log --oneline --graph
+	cm = commit
+	cmm = commit -m
+	sta = stash
+	stal = stash list
+	stad = stash drop
+[core]
+	excludesfile = /Users/jingzhou/.gitignore_global
+[difftool "sourcetree"]
+	cmd = " "
+	path = 
+[mergetool "sourcetree"]
+	cmd = " "
+	trustExitCode = true
+[commit]
+	template = /Users/jingzhou/.stCommitMsg
+[url "ssh://gitlab@git.garena.com/"]
+	insteadOf = https://git.garena.com/
+	insteadOf = https://git.garena.com/
